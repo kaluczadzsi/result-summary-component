@@ -14,3 +14,12 @@
 body {
   height: 100vh;
 }
+
+@media (min-width: 640px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
