@@ -1,9 +1,4 @@
-import anime from 'animejs/lib/anime.es.js';
-
 const Result = () => {
-  anime({
-    targets,
-  });
   return (
     <figure className="figure sm:py-8 self-stretch sm:rounded-[25px] sm:  sm:flex-1 rounded-bl-[30px] rounded-br-[30px] results bg-gradient-to-b from-light-slate-blue to-light-royal-blue flex flex-col py-6 justify-center items-center">
       <header className="text-light-lavender mb-4 sm:mb-0">Your Result</header>
