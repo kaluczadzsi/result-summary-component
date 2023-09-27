@@ -3,7 +3,7 @@ import Button from './Button';
 const Summary = ({ summaryData }) => {
   return (
     <figure className="sm:py-8 sm: flex-1 px-6 summary py-6 flex flex-col">
-      <header className="self-left mb-6 text-dark-gray-blue font-extrabold">
+      <header className="text-xl self-left mb-6 text-dark-gray-blue font-extrabold">
         Summary
       </header>
       <ul className="w-full flex flex-col gap-4 mb-8">
