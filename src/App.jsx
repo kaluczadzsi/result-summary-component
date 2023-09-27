@@ -19,7 +19,7 @@ const App = () => {
     {
       img: memory,
       title: 'Memory',
-      point: 90,
+      point: 92,
       color: 'text-orangey-yellow',
       bg: 'bg-orangey-yellow-o',
     },
