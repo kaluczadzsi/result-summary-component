@@ -2,7 +2,7 @@ const SummaryItem = ({ img, title, point, color, bg }) => {
   return (
     <li className={`${bg} flex items-center justify-between p-4 rounded-lg`}>
       <div className="flex gap-2">
-        <img src={img} />
+        <img src={img} alt={`${title} logo`} />
         <span className={`${color}`}>{title}</span>
       </div>
       <div>
